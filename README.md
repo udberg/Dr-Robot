@@ -48,7 +48,7 @@ Type 2 To update about covid numbers
 Type 3 To tweet
 Type 0 or hold ctrl and type C to leave
 
-## ✒️  Autor <a name = "author"></a>
+## ✒️  Author <a name = "author"></a>
 
 👤 **Uduak John**
 
