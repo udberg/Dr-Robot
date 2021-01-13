@@ -36,11 +36,13 @@ A Twitter bot project that tracks tweets about Coronavirus, suggests the nearby 
 
 ### 🛠 Installing <a name = "installing"></a>
 
-- Clone or download this repository;
+- Clone by running the following command;
+- 'git clone https://github.com/udberg/DrRobot.git'
+- 'cd DrRobot'
 - Unpack (if downloaded);
 - If you dont have a Twitter API Keys, you will need to apply for a Twitter Developer: https://developer.twitter.com/en
 - run 'bundle install' before run the app
-- in your terminal, go to the bin folder and run 'bin/ruby main.rb';
+- in your terminal, go to the bin folder and run 'ruby bin/ruby main.rb';
 
 Command list:
 Type 1 To obtain information about symptoms and nearby emergencies
