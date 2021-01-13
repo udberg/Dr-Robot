@@ -40,7 +40,7 @@ A Twitter bot project that tracks tweets about Coronavirus, suggests the nearby 
 - Unpack (if downloaded);
 - If you dont have a Twitter API Keys, you will need to apply for a Twitter Developer: https://developer.twitter.com/en
 - run 'bundle install' before run the app
-- in your terminal, go to the bin folder and type 'ruby main.rb';
+- in your terminal, go to the bin folder and run 'bin/ruby main.rb';
 
 Command list:
 Type 1 To obtain information about symptoms and nearby emergencies
