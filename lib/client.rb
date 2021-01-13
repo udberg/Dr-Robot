@@ -1,11 +1,12 @@
 # rubocop:disable Style/GlobalVars, Lint/NestedMethodDefinition, Metrics/MethodLength, :
 require 'twitter'
+require 'dotenv/load'
 
 $config = {
-  consumer_key: '',
-  consumer_secret: '',
-  access_token: '',
-  access_token_secret: ''
+  consumer_key: ENV['APIKEY'],
+  consumer_secret: ENV['APISECRETKEY'],
+  access_token: ENV['ACCESSTOKEN'],
+  access_token_secret: ENV['ACCESSTOKENSECRET']
 }
 
 def set_config
