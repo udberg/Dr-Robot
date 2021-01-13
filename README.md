@@ -37,12 +37,20 @@ A Twitter bot project that tracks tweets about Coronavirus, suggests the nearby 
 ### 🛠 Installing <a name = "installing"></a>
 
 - Clone by running the following command;
+
 - 'git clone https://github.com/udberg/DrRobot.git'
+
 - 'cd DrRobot'
+
 - Unpack (if downloaded);
+
 - If you dont have a Twitter API Keys, you will need to apply for a Twitter Developer: https://developer.twitter.com/en
+
 - run 'bundle install' before running the app
-- in your terminal, go to the bin folder and run 'ruby bin/main.rb';
+
+- in your terminal, go to the bin folder and run 'ruby bin/main.rb'
+
+- Navigate as much as you'd love to.
 
 Command list:
 
