@@ -7,8 +7,8 @@ about COVID, number of cases, nearby hospitals so you can
 get medical assistance, in case you or your loved ones ever need it.'
 
 # set_config
-twitter = TwitterAcc.new
-twitter.help
+# twitter = TwitterAcc.new
+# twitter.help
 is_on = true
 
 while is_on
