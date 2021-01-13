@@ -45,9 +45,13 @@ A Twitter bot project that tracks tweets about Coronavirus, suggests the nearby 
 - in your terminal, go to the bin folder and run 'ruby bin/main.rb';
 
 Command list:
+
 Type 1 To obtain information about symptoms and nearby emergencies
+
 Type 2 To update about covid numbers
+
 Type 3 To tweet
+
 Type 0 or hold ctrl and type C to leave
 
 ## ✒️  Author <a name = "author"></a>
