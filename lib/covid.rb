@@ -1,6 +1,6 @@
 require 'rest-client'
 require 'json'
-require_relative './twitter_acc.rb'
+require_relative 'twitter'
 
 class CovidNumbers
   @country = ''

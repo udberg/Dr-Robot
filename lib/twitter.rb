@@ -1,7 +1,7 @@
 # rubocop:disable Layout/LineLength, Style/GlobalVars
 require 'twitter'
-require_relative './client.rb'
-require_relative './covid.rb'
+require_relative 'client'
+require_relative 'covid'
 
 class TwitterAcc < CovidNumbers
   attr_accessor :client
