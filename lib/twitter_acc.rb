@@ -1,3 +1,4 @@
+rubocop:disable Layout/LineLength, Style/GlobalVars
 require 'twitter'
 require_relative 'client'
 require_relative 'covid'
@@ -57,3 +58,4 @@ class TwitterAcc < CovidNumbers
 
   private :inform_symptoms, :inform_nearby_hospitals
 end
+# rubocop:enable Layout/LineLength, Style/GlobalVars

@@ -1,3 +1,4 @@
+# rubocop:disable Style/GlobalVars, Lint/NestedMethodDefinition, Metrics/MethodLength, :
 require 'dotenv/load'
 
 $config = {
@@ -43,3 +44,4 @@ def set_config
     ask
   end
 end
+# rubocop:enable Style/GlobalVars, Lint/NestedMethodDefinition, Metrics/MethodLength:
