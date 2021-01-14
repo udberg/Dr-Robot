@@ -1,4 +1,3 @@
-rubocop:disable Style/GlobalVars, Lint/NestedMethodDefinition, Metrics/MethodLength, :
 require 'twitter'
 require 'dotenv/load'
 
@@ -45,5 +44,3 @@ def set_config
     ask
   end
 end
-
-rubocop:enable Style/GlobalVars, Lint/NestedMethodDefinition, Metrics/MethodLength:

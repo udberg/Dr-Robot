@@ -1,4 +1,3 @@
-rubocop: disable Metrics/BlockNesting, Layout/LineLength
 require 'twitter'
 require_relative '../lib/twitter'
 system 'cls'
@@ -42,4 +41,3 @@ while is_on
     twitter.help
   end
 end
-rubocop: enable Metrics/BlockNesting, Layout/LineLength

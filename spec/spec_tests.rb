@@ -1,4 +1,6 @@
+require 'twitter.rb'
 require_relative '../bin/main.rb'
+require_relative '../lib/twitter.rb'
 
 RSpec.describe TwitterAcc do
   let(:my_bot) { TwitterAcc.new }

@@ -39,4 +39,3 @@ class CovidNumbers
     end
   end
 end
-# rubocop:enable:
