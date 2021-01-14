@@ -26,7 +26,7 @@ class CovidNumbers
       resp = RestClient.get "#{base_url}#{query}"
       @data = JSON.parse(resp.body)
       @data = @data[-1]
-      text = "Last numbers of Covid19 in #{@data['Country']}: 
+      text = "Last numbers of Covid19 in #{@data['Country']}:
       Cases: #{@data['Confirmed']},
        Deaths: #{@data['Deaths']}"
       puts text

@@ -1,4 +1,4 @@
-# rubocop:disable Layout/LineLength, Style/GlobalVars
+rubocop:disable Layout/LineLength, Style/GlobalVars
 require 'twitter'
 require_relative 'client'
 require_relative 'covid'
@@ -21,15 +21,15 @@ class TwitterAcc < CovidNumbers
   end
 
   def inform_symptoms(user)
-    update_tweet("Hey @#{user} Diagnostic Tip:\nGet tested for COVID if 
-    you have ANY symptom from this list:\nNausea/diarrhea\nRash/red 
-    toes\n Fatigue/body aches\nLoss of taste/smell\nCough, sore throat, 
-    chest pain\nFever, chills\n~20% patients DON’T have typical 
+    update_tweet("Hey @#{user} Diagnostic Tip:\nGet tested for COVID if
+    you have ANY symptom from this list:\nNausea/diarrhea\nRash/red
+    toes\n Fatigue/body aches\nLoss of taste/smell\nCough, sore throat,
+    chest pain\nFever, chills\n~20% patients DON’T have typical
     fever/respiratory symptoms")
   end
 
   def inform_nearby_hospitals(user)
-    update_tweet("@#{user}, here are the nearby hospitals, if you ever need 
+    update_tweet("@#{user}, here are the nearby hospitals, if you ever need
     https://www.google.com/maps/search/emergency/")
   end
 

@@ -1,14 +1,14 @@
-# rubocop: disable Metrics/BlockNesting, Layout/LineLength
+rubocop: disable Metrics/BlockNesting, Layout/LineLength
 require 'twitter'
 require_relative '../lib/twitter'
 system 'cls'
 puts 'Welcome to Dr Robot! I am here to give you all the necessary information
-about COVID, number of cases, nearby hospitals so you can 
+about COVID, number of cases, nearby hospitals so you can
 get medical assistance, in case you or your loved ones ever need it.'
 
-# set_config
-# twitter = TwitterAcc.new
-# twitter.help
+set_config
+twitter = TwitterAcc.new
+twitter.help
 is_on = true
 
 while is_on
@@ -42,4 +42,4 @@ while is_on
     twitter.help
   end
 end
-# rubocop: enable Metrics/BlockNesting, Layout/LineLength
+rubocop: enable Metrics/BlockNesting, Layout/LineLength
