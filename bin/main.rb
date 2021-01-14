@@ -1,5 +1,5 @@
-require 'twitter'
-require_relative '../lib/twitter'
+require_relative '../lib/twitter_acc'
+
 system 'cls'
 puts 'Welcome to Dr Robot! I am here to give you all the necessary information
 about COVID, number of cases, nearby hospitals so you can

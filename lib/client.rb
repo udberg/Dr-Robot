@@ -1,4 +1,3 @@
-require 'twitter'
 require 'dotenv/load'
 
 $config = {

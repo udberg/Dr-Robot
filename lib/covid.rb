@@ -1,11 +1,13 @@
 require 'rest-client'
 require 'json'
-require_relative 'twitter'
 
 class CovidNumbers
+  def initialize
   @country = ''
-  def get_contry(quer)
-    case quer
+  end
+
+  def get_contry(query)
+    case query
     when 1
       @country = 'Nigeria'
     when 2
