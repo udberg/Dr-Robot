@@ -1,4 +1,4 @@
-# rubocop:disable Layout/LineLength, Style/GlobalVars
+# rubocop:disable Style/GlobalVars
 require 'twitter'
 require_relative 'client'
 require_relative 'covid'
