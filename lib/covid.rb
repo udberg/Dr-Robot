@@ -3,7 +3,7 @@ require 'json'
 
 class CovidNumbers
   def initialize
-      @country = ''
+  @country = ''
   end
 
   def get_contry(query)

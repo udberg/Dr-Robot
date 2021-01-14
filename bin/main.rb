@@ -42,4 +42,4 @@ while is_on
     twitter.help
   end
 end
- rubocop: enable Metrics/BlockNesting, Layout/LineLength
+# rubocop:enable Metrics/BlockNesting, Layout/LineLength
