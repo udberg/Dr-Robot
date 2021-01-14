@@ -62,6 +62,12 @@ Type 3 To tweet
 
 Type 0 or hold ctrl and type C to leave
 
+## Testing The Code
+
+- To test the code, just cd into the repository's directory and run the command below:
+
+- bundle exec rspec
+
 ## ✒️  Author <a name = "author"></a>
 
 👤 **Uduak John**
