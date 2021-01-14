@@ -58,4 +58,4 @@ class TwitterAcc < CovidNumbers
 
   private :inform_symptoms, :inform_nearby_hospitals
 end
-# rubocop:enable Layout/LineLength, Style/GlobalVars
+# rubocop:enable Style/GlobalVars
